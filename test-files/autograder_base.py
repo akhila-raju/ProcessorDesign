@@ -17,8 +17,6 @@ def student_reference_match_unbounded(student_out, reference_out):
   while True:
     line1 = student_out.readline()
     line2 = reference_out.readline()
-    print(line1)
-    print(line2)
     if line2 == '':
       break
     if line1 != line2:
@@ -175,4 +173,5 @@ def main(tests):
   else:
     print >> sys.stderr, "Incorrect usage!"
   sys.exit(1)
-    
+
+
