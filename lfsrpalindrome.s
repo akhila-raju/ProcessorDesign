@@ -14,10 +14,10 @@ LfsrLoop:
 
 
 ReturnPal:
-	sw $a0, 0($v0)
+	addu $v0, $a0, $0
 	jr $ra
 
 
 ReturnSeed:
-	sw $t0, 0($v0)
+	addu $v0, $t0, $0
 	jr $ra
